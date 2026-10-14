@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Funded Path</title>
+<meta name="description" content="Diario de resultados para traders de futuros (NQ, ES, YM) en evaluación de fondeo.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css">
+<script>
+  // Apply saved theme before first paint to avoid a flash.
+  try { var th = localStorage.getItem('tj_theme'); if (th === 'light' || th === 'dark') document.documentElement.dataset.theme = th; } catch (e) {}
+</script>
+</head>
+<body>
+<div class="particles" id="particles" aria-hidden="true">
+  <div class="pl pl1"><i></i></div>
+  <div class="pl pl2"><i></i></div>
+  <div class="pl pl3"><i></i></div>
+</div>
+<div id="app"></div>
+<script src="js/i18n.js"></script>
+<script src="js/calc.js"></script>
+<script src="js/feedback.js"></script>
+<script src="js/store.js"></script>
+<script src="js/images.js"></script>
+<script src="js/excel.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
